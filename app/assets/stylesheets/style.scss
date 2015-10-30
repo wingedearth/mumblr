@@ -1,0 +1,48 @@
+
+/* // FONTS
+ *
+ * @font-face {
+ *   font-family: 'Bookman Old Style';
+ *   src: url('/assets/fonts/BookmanOldStyle.ttf') format('truetype');
+ *   font-weight: normal;
+ *   font-style: normal;
+ * }
+ *
+ * @font-face {
+ *   font-family: 'Bookman Old Style';
+ *   src: url('/assets/fonts/BookmanOldStyleBold.ttf') format('truetype');
+ *   font-weight: bold;
+ *   font-style: normal;
+ * }
+ *
+ * // COLORS
+ *
+ * $tumblr-blue: #35465C;
+ *
+ * $mumblr-violet:       #382ca3;
+ * $mumblr-violet-light: #5249c0;
+ * $mumblr-violet-dark:  #30249a;
+ *
+ * $mumblr-gray: #95A0AD;
+ */
+
+*,
+html,
+body {
+  // font-family: ;
+  box-sizing: border-box;
+}
+
+
+h1 {
+  font-family: "Bookman Old Style Regular", Bookman, "Times New Roman", serif;
+
+  color: #95A0AD;
+  /*-webkit-text-fill-color: #95A0AD;*/
+  /*-webkit-text-stroke:     0.05em #35465C;*/
+
+  font-size:      3em;
+  font-weight:    bold;
+  letter-spacing: 0.05em;
+  text-shadow:    0 2px 2px #35465c;
+}
